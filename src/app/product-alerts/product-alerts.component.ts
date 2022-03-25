@@ -8,7 +8,7 @@ import { Product } from '../products';
 })
 export class ProductAlertsComponent implements OnInit {
 
-  @Input() product!:Product;
+  @Input() product!: Product;
 
   constructor() { }
 
